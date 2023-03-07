@@ -1,0 +1,44 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    background-color: aqua;
+    color: black;
+  }
+  
+  .app-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .product-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .product {
+    width: 300px;
+    border: 1px solid black;
+    padding: 1rem;
+  }
+  
+  .product-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-description {
+    font-size: 0.9rem;
+    color:black;
+    font-weight: bold;
+
+  }
+  
